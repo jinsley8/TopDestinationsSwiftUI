@@ -56,7 +56,6 @@ struct Home: View {
                     
                 }
                 .frame(height: destinations[idx].expand ? UIScreen.main.bounds.height : 250)
-                //.simultaneousGesture(DragGesture(minimumDistance: destinations[idx].expand ? 0 : 500))
             }
         }
     }
