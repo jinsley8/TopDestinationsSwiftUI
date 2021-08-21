@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,11 @@
 		6344E6B126D0ACDF006C1490 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6344E6B026D0ACDF006C1490 /* Destination.swift */; };
 		6344E6B626D0B3A1006C1490 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6344E6B526D0B3A1006C1490 /* Home.swift */; };
 		6344E6B826D0B9B2006C1490 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6344E6B726D0B9B2006C1490 /* CardView.swift */; };
+		6344E6BA26D0C69A006C1490 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6344E6B926D0C69A006C1490 /* City.swift */; };
+		6344E6BD26D0C8BB006C1490 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 6344E6BC26D0C8BB006C1490 /* Lottie */; };
+		6344E6BF26D0C8CB006C1490 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6344E6BE26D0C8CB006C1490 /* LottieView.swift */; };
+		6344E6C126D0C964006C1490 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6344E6C026D0C964006C1490 /* MapView.swift */; };
+		6344E6C326D0CA03006C1490 /* mapPin.json in Resources */ = {isa = PBXBuildFile; fileRef = 6344E6C226D0CA03006C1490 /* mapPin.json */; };
 		637CED1426D094BB00B1BE22 /* TopDestinationsSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637CED1326D094BB00B1BE22 /* TopDestinationsSwiftUIApp.swift */; };
 		637CED1626D094BB00B1BE22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637CED1526D094BB00B1BE22 /* ContentView.swift */; };
 		637CED1826D094BD00B1BE22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637CED1726D094BD00B1BE22 /* Assets.xcassets */; };
@@ -24,6 +29,10 @@
 		6344E6B026D0ACDF006C1490 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
 		6344E6B526D0B3A1006C1490 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		6344E6B726D0B9B2006C1490 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		6344E6B926D0C69A006C1490 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		6344E6BE26D0C8CB006C1490 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		6344E6C026D0C964006C1490 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		6344E6C226D0CA03006C1490 /* mapPin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = mapPin.json; path = "../../../../../../Downloads/Torrents/[ FreeCourseWeb.com ] Udemy - Top Destinations App in SwiftUI w - Maps & Lottie Animation/05 Resources/TravelAppSwiftUI/TravelAppSwiftUI/Resources/mapPin.json"; sourceTree = "<group>"; };
 		637CED1026D094BB00B1BE22 /* TopDestinationsSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopDestinationsSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		637CED1326D094BB00B1BE22 /* TopDestinationsSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopDestinationsSwiftUIApp.swift; sourceTree = "<group>"; };
 		637CED1526D094BB00B1BE22 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6344E6BD26D0C8BB006C1490 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +56,7 @@
 		6344E6A926D0A951006C1490 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6344E6C226D0CA03006C1490 /* mapPin.json */,
 				6344E6AC26D0AC36006C1490 /* destinations.json */,
 			);
 			path = Resources;
@@ -55,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				6344E6B026D0ACDF006C1490 /* Destination.swift */,
+				6344E6B926D0C69A006C1490 /* City.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -72,6 +84,8 @@
 			children = (
 				6344E6B526D0B3A1006C1490 /* Home.swift */,
 				6344E6B726D0B9B2006C1490 /* CardView.swift */,
+				6344E6BE26D0C8CB006C1490 /* LottieView.swift */,
+				6344E6C026D0C964006C1490 /* MapView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -132,6 +146,9 @@
 			dependencies = (
 			);
 			name = TopDestinationsSwiftUI;
+			packageProductDependencies = (
+				6344E6BC26D0C8BB006C1490 /* Lottie */,
+			);
 			productName = TopDestinationsSwiftUI;
 			productReference = 637CED1026D094BB00B1BE22 /* TopDestinationsSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -159,6 +176,9 @@
 				Base,
 			);
 			mainGroup = 637CED0726D094BB00B1BE22;
+			packageReferences = (
+				6344E6BB26D0C8BA006C1490 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 637CED1126D094BB00B1BE22 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -173,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6344E6C326D0CA03006C1490 /* mapPin.json in Resources */,
 				6344E6AD26D0AC36006C1490 /* destinations.json in Resources */,
 				637CED1B26D094BD00B1BE22 /* Preview Assets.xcassets in Resources */,
 				637CED1826D094BD00B1BE22 /* Assets.xcassets in Resources */,
@@ -192,6 +213,9 @@
 				6344E6B126D0ACDF006C1490 /* Destination.swift in Sources */,
 				6344E6B826D0B9B2006C1490 /* CardView.swift in Sources */,
 				637CED1426D094BB00B1BE22 /* TopDestinationsSwiftUIApp.swift in Sources */,
+				6344E6BA26D0C69A006C1490 /* City.swift in Sources */,
+				6344E6C126D0C964006C1490 /* MapView.swift in Sources */,
+				6344E6BF26D0C8CB006C1490 /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +404,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6344E6BB26D0C8BA006C1490 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6344E6BC26D0C8BB006C1490 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6344E6BB26D0C8BA006C1490 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 637CED0826D094BB00B1BE22 /* Project object */;
 }

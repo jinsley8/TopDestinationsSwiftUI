@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct CardView: View {
     
@@ -46,7 +47,12 @@ struct CardView: View {
                             }
                         }
                         
-                        Map(coordinateRegion: .constant(MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: Double(destination.latitude)!, longitude: Double(destination.longitude)!), span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05))), interactionModes: [.zoom])
+                        Map(coordinateRegion: .constant(MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: Double(destination.latitude)!, longitude: Double(destination.longitude)!), span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05))), interactionModes: [.zoom], showsUserLocation: false, userTrackingMode: .constant(.none), annotationItems: [destination.city], annotationContent: {
+                            MapAnnotation(coordinate: $0.coord) {
+                                LottieView()
+                                    .frame(width: 100, height: 100)
+                            }
+                        })
                             .frame(height: 200)
                             .cornerRadius(25)
                             .padding(.horizontal)
@@ -57,7 +63,7 @@ struct CardView: View {
                             Text("Launch Map")
                         }
                         .sheet(isPresented: $showMap) {
-
+                            MapView(destination: destination)
                         }
                     }
                 }
