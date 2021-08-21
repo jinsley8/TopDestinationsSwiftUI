@@ -7,7 +7,8 @@
 
 import Foundation
 
-final class Destination: Decodable {
+final class Destination: Decodable, Identifiable {
+  let id = UUID()
   let name: String
   let latitude: String
   let longitude: String
