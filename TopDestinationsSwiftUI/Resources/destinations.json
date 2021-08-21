@@ -1,0 +1,203 @@
+[
+    {
+      "name": "Great Pyramid of Giza, Egypt",
+      "latitude": "29.979234481906087",
+      "longitude": "31.134030237170315",
+      "image": "pyramid",
+      "sevenWonder": false,
+      "overlay": false,
+      "expand": false,
+      "details": "The last of the Seven Wonders of the Ancient World standing, and more than 3,000 years old, the Great Pyramid rises 479 feet from a 754-feet square base. Scientists still don’t understand how the ancient Egyptians were able to move, carve and erect more than 2 million stone blocks, each weighing from 2 to 60 tons. It is one of three pyramids to tour on the Giza Plateau; get there early to purchase entry tickets or work with a local tour operator."
+    },
+    {
+      "name": "Eiffel Tower, Paris",
+      "latitude": "48.85849007778378",
+      "longitude": "2.294502756552109",
+      "image": "eiffel_tower",
+      "sevenWonder": false,
+      "overlay": false,
+      "expand": false,
+      "details": "One of the best place to visit in France, the Eiffel Tower sells about 7 million tickets annually and is appreciated at a distance by all Paris visitors. Completed for the 1889 Exposition Universelle after two years of construction, it has 1,665 steps to the top and elevators to two observation levels. Computer programmed beacons, which are seen up to 50 miles away, complement the tower's 20,000 lightbulbs as part of a thrilling, hourly night show designed to celebrate the millennium."
+    },
+    {
+      "name": "Hollywood Sign, Los Angeles",
+      "latitude": "34.134234463520386",
+      "longitude": "-118.32155853420092",
+      "image": "hollywood_sign",
+      "sevenWonder": false,
+      "overlay": false,
+      "expand": false,
+      "details": "The Hollywood sign, which debuted as Hollywoodland in 1923 to advertise a real estate development, was rebuilt in 1978 to mark the iconic industry that makes Los Angeles a company town, even today. For the best selfies, park along North Beachwood Drive off Franklin Avenue and look up Beachwood Canyon, or get nostalgic at Griffith Park Observatory, where “La La Land” was filmed."
+    },
+    {
+      "name": "Berlin Wall, East Side Gallery, Berlin",
+      "latitude": "52.50546642418776",
+      "longitude": "13.439750293060564",
+      "image": "berlin_wall_east_side_gallery",
+      "sevenWonder": false,
+      "overlay": false,
+      "expand": false,
+      "details": "Graffitied segments of the Berlin Wall that separated the socialist, former East Germany from democratic West Berlin are enshrined around the world. In Berlin, however, one of the few monuments to the Cold War is this gallery of 101 panels totaling around 4,300 feet. They were painted by artists in 1990 to commemorate the Wall’s fall and preserve a segment from destruction by urban development."
+    },
+    {
+      "name": "La Sagrada Familia, Barcelona, Spain",
+      "latitude": "41.404525586360926",
+      "longitude": "2.1757263132743705",
+      "image": "la_sagrada_familia",
+      "sevenWonder": false,
+      "overlay": false,
+      "expand": false,
+      "details": "One of the world’s most famous cathedrals, La Sagrada Familia features undulating lines, abstract stained glass and dripping stone towers. This masterpiece is the work of visionary architect Antoni Gaudí, whose ornate private commissions and playful Parc Güell are also top attractions in Barcelona. Construction on La Sagrada Familia began in the late 1870s and was supervised by Gaudi for 43 years until his death (he is buried in the crypt). It is expected to be completed in 2026."
+    },
+    {
+      "name": "Grand Palace, Bangkok",
+      "latitude": "13.750085060509393",
+      "longitude": "100.49173743090934",
+      "image": "grand_palace_bangkok",
+      "sevenWonder": false,
+      "overlay": false,
+      "expand": false,
+      "details": "Formerly a palace for Kings Rama I through Rama V, and home to Wat Phra Kaew (the Temple of the Emerald Buddha), today’s ceremonial royal complex is Bangkok’s top attraction. Allow a half day to admire the ornate carvings, gilded teak woodwork, tiles and classic architecture of the palace’s three courtyards, and see the temple interior. Visitors are asked to wear black or white out of respect for the late King Rama IX, who died in 2016."
+    },
+    {
+      "name": "Mount Fuji, Japan",
+      "latitude": "35.3613946490947",
+      "longitude": "138.72774961674992",
+      "image": "mount_fuji",
+      "sevenWonder": false,
+      "overlay": false,
+      "expand": false,
+      "details": "Often capped with snow, Mount Fuji's gently sloping volcano is Japan's definition of perfection. Revered by locals and considered a top place to visit in Japan, the 12,388-foot summit is open to hikers in certain seasons. Most visitors opt for a sighting, either from Tokyo's sky-high observation decks or a passing bullet train heading to Osaka. Or, consider a visit to Hakone, a town with natural hot springs where you can savor the view – best in early morning or late afternoon, between November and May."
+    },
+    {
+      "name": "Tower of London, London",
+      "latitude": "51.508245932808535",
+      "longitude": "-0.07600294524087958",
+      "image": "tower_of_london",
+      "sevenWonder": false,
+      "overlay": false,
+      "expand": false,
+      "details": "The 1,000-year-old Tower of London fortress has served as a royal palace, prison, armory, execution chamber and treasury, safeguarding the 24,000 gems that make up the famous Crown Jewels, still worn by the Queen on special occasions. Tours are led by the colorfully costumed Beefeaters who thrill kids. Buy tickets online to avoid long waits; save with a three-palace Royal Pass if you’re into nobility."
+    },
+    {
+      "name": "The Strip, Las Vegas",
+      "latitude": "36.114889373099764",
+      "longitude": "-115.17279561064845",
+      "image": "las_vegas_strip",
+      "sevenWonder": false,
+      "overlay": false,
+      "expand": false,
+      "details": "South Las Vegas Boulevard, or The Strip, the city’s main road and home to numerous casinos and clubs, welcomed 30.5 million visitors in 2016. Since traffic is bad and the monorail is not scenic, put on comfortable shoes to stroll from the free dancing waters show at the Bellagio Fountains to the 550-foot-tall High Roller observation wheel for a closer look at some of the city’s most famous sights."
+    },
+    {
+      "name": "Neuschwanstein Castle, Germany",
+      "latitude": "47.55772602619007",
+      "longitude": "10.74984331419627",
+      "image": "neuschwanstein_castle",
+      "sevenWonder": false,
+      "overlay": false,
+      "expand": false,
+      "details": "The hilltop Schloss Neuschwanstein was home to young King Ludwig II of Bavaria, who ascended to the throne full of dreams for his kingdom, lost power to the Prussians, retreated to several fantasy palaces and became so isolated that he was declared insane in 1886. The lavish, white fairy-tale palace welcomes more than 1.4 million curious visitors annually and is said to be Walt Disney’s inspiration for the Sleeping Beauty Castle at Disneyland."
+    },
+    {
+      "name": "Ubud, Bali, Indonesia",
+      "latitude": "-8.505023976494618",
+      "longitude": "115.26209113528793",
+      "image": "ubud",
+      "sevenWonder": false,
+      "overlay": false,
+      "expand": false,
+      "details": "Topping many bucket lists, the Indonesian island of Bali is a Hindu enclave that has welcomed Westerners for more than a century, hosting New Age and traditional cultures alongside a beachfront party scene. Ubud, a hilltop inland village surrounded by Instagram-worthy rice fields, already the epicenter of yoga, Pan Asian foodie cuisine and elaborate family ceremonies, was made even more popular by the book and film 'Eat, Pray, Love.'"
+    },
+    {
+      "name": "Burj Khalifa, Dubai, United Arab Emirates",
+      "latitude": "25.197148444064595",
+      "longitude": "55.274247652450924",
+      "image": "burj_khalifa",
+      "sevenWonder": false,
+      "overlay": false,
+      "expand": false,
+      "details": "While all United Arab Emirates countries boast architectural superlatives, the tallest of the futuristic towers – and the tallest building in the world – is the slender silver and glass Burj Khalifa. Even though you can see it from everywhere, to experience the 148th-floor Observation Deck without lines, and feel the breeze whooshing past the partial glass barriers, is a bucket-list adventure many think warrants the sky-high admission fee."
+    },
+    {
+      "name": "Statue of Liberty, New York Harbor",
+      "latitude": "40.68949343523068",
+      "longitude": "-74.04395323065675",
+      "image": "statue_of_liberty",
+      "sevenWonder": false,
+      "overlay": false,
+      "expand": false,
+      "details": "Officially known as 'The Statue of Liberty Enlightening the World,' the copper Lady Liberty was gifted by France as a symbol of friendship and dedicated in 1886. Conserved by the National Park Service, it can be easily seen from the free Staten Island Ferry, but to tour the museum at its base or climb the 377-step spiral staircase into the fascinating crown, you must book ahead with Statue Cruises."
+    },
+    {
+      "name": "Oriental Pearl Tower, Shanghai",
+      "latitude": "31.239881518689845",
+      "longitude": "121.49983040041147",
+      "image": "oriental_pearl_tower",
+      "sevenWonder": false,
+      "overlay": false,
+      "expand": false,
+      "details": "Opened in 1994, Shanghai’s favorite vintage tower design – 11 red and gold spheres pierced by a silver column supporting a glass elevator – was inspired by a Chinese poem describing “large and small pearls dropping on a plate of jade.” Located in Pudong, the top sphere holds the tallest observation deck with a glass overlook; other spheres have views over the Huangpu River toward the classic Bund, a revolving restaurant and the interesting Shanghai Municipal History Museum at its base."
+    },
+    {
+      "name": "Colosseum, Rome",
+      "latitude": "41.89040186262684",
+      "longitude": "12.492649323336162",
+      "image": "colosseum",
+      "sevenWonder": true,
+      "overlay": false,
+      "expand": false,
+      "details": "Now the remains of an enormous, carved marble ellipse, the Colosseum was commissioned in A.D. 72 by Emperor Vespasian as an amphitheater to entertain the masses. Using four levels pierced by 80 arched entrances, 55,000 spectators could quickly take seats to watch all-day games between wild animals, slaves and criminals. The local guides in gladiator costumes hanging around today will tell you how the ground was once soaked in blood and that Christians, indeed, were thrown to lions here."
+    },
+    {
+      "name": "Matterhorn, Switzerland",
+      "latitude": "45.977199218794006",
+      "longitude": "7.658537712488748",
+      "image": "matterhorn",
+      "sevenWonder": false,
+      "overlay": false,
+      "expand": false,
+      "details": "The jagged, 14,692-foot Matterhorn peak resembles a flint ax head above the posh resort town of Zermatt. Higher than most of the peaks in the Alps near the Italian border, the mountain attracts skiers and snowboarders in winter with fine snow conditions and grooming, and sightseers year-round who want to ride the funicular."
+    },
+    {
+      "name": "Blue Mosque, Istanbul",
+      "latitude": "41.00557150891413",
+      "longitude": "28.976878171738516",
+      "image": "blue_mosque",
+      "sevenWonder": false,
+      "overlay": false,
+      "expand": false,
+      "details": "Although Istanbul’s Grand Bazaar attracts millions of visitors, the city’s most authentic must-see is Sultanahmet Camii, the Blue Mosque built for Sultan Ahmet I in the 17th century. In addition to the stunning blue-glazed tiles that decorate the dome and walls, look for layers of prayer rugs from the Muslim world and Sultan Ahmet’s tomb. Dress modestly (long slacks for men, head coverings for women), remove shoes and respect the prayer times when it closes briefly for non-Muslims."
+    },
+    {
+      "name": "Victoria Harbour, Hong Kong",
+      "latitude": "22.284323164687706",
+      "longitude": "114.16941007565667",
+      "image": "victoria_harbour",
+      "sevenWonder": false,
+      "overlay": false,
+      "expand": false,
+      "details": "Hong Kong may be most famous for the busy waterway separating the island’s glittering skyscrapers from the commercial mainland at Kowloon. The most spectacular views of the city are from the water, whether seen on a cheap Star Ferry connecting Wan Chai to Tsim Sha Tsui, a traditional Chinese junk or a guided cruise. Set sail after sunset for the world’s largest light and sound show at 8 p.m. nightly, when the city’s skyscrapers erupt into seasonally themed lighting effects synchronized to music."
+    },
+    {
+      "name": "Library of Celsus, Ephesus, Turkey",
+      "latitude": "37.93934056267688",
+      "longitude": "27.34132769442879",
+      "image": "library_of_celsus",
+      "sevenWonder": false,
+      "overlay": false,
+      "expand": false,
+      "details": "The Library of Celsus commemorating the Roman governor Julius Celsus Polemaeanus was commissioned by his son and begun in 110 A.D. Originally two stories tall with a central reading room and three tiers of decorative niches holding life-size statues, it was reconstructed from ruins by archeologists during the 1970s. The excellent replicas and stunning facade restoration make it among the top excursions for cruise ship visitors to the ancient port of Ephesus."
+    },
+    {
+      "name": "Times Square, New York",
+      "latitude": "37.93934056267688",
+      "longitude": "27.34132769442879",
+      "image": "time_square",
+      "sevenWonder": false,
+      "overlay": false,
+      "expand": false,
+      "details": "With 50 million visitors annually, Manhattan’s monument to billboards, Broadway and buskers is a must. It all began at Long Acre Square when New York Times publisher Adolph S. Ochs built his paper’s office tower in an area benefitting from the recent arrival of electric lighting and the subway. Times Tower opened in 1904. Shortly after, former Mayor McClellan renamed the square after the paper, and it’s still used for the New Year’s celebration they pioneered."
+    },
+]
+
