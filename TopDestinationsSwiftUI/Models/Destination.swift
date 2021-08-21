@@ -16,6 +16,7 @@ final class Destination: Decodable, Identifiable {
   let sevenWonder: Bool
   let overlay: Bool
   let details: String
+  var expand: Bool
   
   init(from decoder: Decoder) throws {
     
@@ -27,6 +28,7 @@ final class Destination: Decodable, Identifiable {
       case sevenWonder
       case overlay
       case details
+      case expand
     }
     
     let values = try decoder.container(keyedBy: CodingKey.self)
@@ -37,6 +39,6 @@ final class Destination: Decodable, Identifiable {
     sevenWonder = try values.decode(Bool.self, forKey: .sevenWonder)
     overlay = try values.decode(Bool.self, forKey: .overlay)
     details = try values.decode(String.self, forKey: .details)
-    
+    expand = try values.decode(Bool.self, forKey: .expand)
   }
 }
