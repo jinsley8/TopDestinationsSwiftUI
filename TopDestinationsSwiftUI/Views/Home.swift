@@ -8,53 +8,56 @@
 import SwiftUI
 
 struct Home: View {
-
-  private var data = FileDecodingHelper<Destination>(file: "destinations").getData()
-  
-  @State private var expandView = false
-  
-  var body: some View {
-    VStack {
-      ScrollView(.vertical, showsIndicators: false) {
+    
+    @State private var destinations = FileDecodingHelper<Destination>(file: "destinations").getData()
+    
+    @State private var expandView = false
+    
+    var body: some View {
         VStack {
-          headerView
-          
-          destinationView
-        }
-      }
-    }
-  }
-  
-  private var headerView: some View {
-    HStack {
-      VStack(alignment: .leading) {
-        Text("Top Destinations")
-          .font(.largeTitle)
-          .bold()
-      }
-      
-      Spacer()
-    }.padding()
-  }
-  
-  private var destinationView: some View {
-    VStack(spacing: 15) {
-      ForEach(data) { destination in
-        GeometryReader { geo in
-          Image(destination.image)
-            .resizable()
-            .cornerRadius(destination.expand ? 0 : 25)
-            .padding(.horizontal, destination.expand ? 0 : 15)
-            .offset(y: destination.expand ? -geo.frame(in: .global).minY : 0)
-            .opacity(expandView ? (destination.expand ? 1 : 0) : 1)
-            .onTapGesture {
-              expandView.toggle()
-              destination.expand.toggle()
+            ScrollView(.vertical, showsIndicators: false) {
+                VStack {
+                    headerView
+                    
+                    destinationView
+                }
             }
         }
-        .frame(height: destination.expand ? UIScreen.main.bounds.height : 250)
-        .gesture(DragGesture(minimumDistance: destination.expand ? 0 : 500))
-      }
     }
-  }
+    
+    private var headerView: some View {
+        HStack {
+            VStack(alignment: .leading) {
+                Text("Top Destinations")
+                    .font(.largeTitle)
+                    .bold()
+            }
+            
+            Spacer()
+        }.padding()
+    }
+    
+    private var destinationView: some View {
+        VStack(spacing: 15) {
+            ForEach(0..<destinations.count) { idx in
+                GeometryReader { geo in
+                    CardView(destination: $destinations[idx], expand: $expandView)
+                        .padding(.horizontal, destinations[idx].expand ? 0 : 15)
+                        .offset(y: destinations[idx].expand ? -geo.frame(in: .global).minY : 0)
+                        .opacity(expandView ? (destinations[idx].expand ? 1 : 0) : 1)
+                        .onTapGesture {
+                            withAnimation(.interactiveSpring(response: 0.5, dampingFraction: 0.8, blendDuration: 0)) {
+                                if !destinations[idx].expand {
+                                    expandView.toggle()
+                                    destinations[idx].expand.toggle()
+                                }
+                            }
+                        }
+                    
+                }
+                .frame(height: destinations[idx].expand ? UIScreen.main.bounds.height : 250)
+                //.simultaneousGesture(DragGesture(minimumDistance: destinations[idx].expand ? 0 : 500))
+            }
+        }
+    }
 }
